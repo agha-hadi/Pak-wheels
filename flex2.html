@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      header .container{
+            border: 1px solid red;
+            height: 100px;
+            background-color: grey;
+
+
+      }
+      header .container .row{
+           height: inherit;
+           display: flex;
+           width: 90%;
+           margin: 0 auto;
+
+      }
+      .col1{
+              width: 15%;
+              height: inherit;
+              background-color: green;
+           
+      }
+      .col2{
+        width: 70%;
+        height: inherit;
+        background-color: yellow;
+      }
+      .col3{
+        width: 15%;
+        height: inherit;
+       background-color: orange;
+      }
+      .col2 .nav ul{
+          padding: 10px;
+          position: relative;
+          top: 10px;
+      }
+      .col2 .nav ul li{
+        display: inline;
+        padding: 10px;
+        margin-left: 25px;
+      }
+      .col3 .btn{
+               height: 50px;
+               width: 120px;
+               position: relative;
+               top: 10px;
+               background-color:red;
+              border-radius:15px;
+              color: white;
+              
+
+
+
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+               <div class="col col1">
+
+               </div>
+        
+        <div class="col col2">
+            <div class="nav">
+                <ul>
+                    <li>Used car</li>
+                    <li>New Car</li>
+                    <li>Bikes</li>
+                    <li>Auto store</li>
+                    <li>Video</li>
+                    <li>Forums</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col col3">
+            <div class="btn">
+                <p>Post An Add</p>
+            </div>
+        </div>
+      </div>
+      </div>
+    </header>
+</body>
+</html>
